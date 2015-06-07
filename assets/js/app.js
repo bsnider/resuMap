@@ -144,24 +144,24 @@ var locations = L.geoJson(null, {
     onEachFeature: function(feature, layer) {
         if (feature.properties) {
             if (feature.properties.bullet5){
-                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 +  "</li><li>" + feature.properties.bullet3 +  "</li><li>" + feature.properties.bullet4 +  "</li><li>" + feature.properties.bullet5 + "</li></ul></td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.url + "' target='agfagadgda'>" + "click here!" + "</a></td></tr>" + "<table>";
+                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 +  "</li><li>" + feature.properties.bullet3 +  "</li><li>" + feature.properties.bullet4 +  "</li><li>" + feature.properties.bullet5 + "</li></ul></td></tr>" + "<table>";
             }
             else if (feature.properties.bullet4){
-                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 +  "</li><li>" + feature.properties.bullet3 +  "</li><li>" + feature.properties.bullet4 + "</li></ul></td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.url + "' target='agfagadgda'>" + "click here!" + "</a></td></tr>" + "<table>";
+                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 +  "</li><li>" + feature.properties.bullet3 +  "</li><li>" + feature.properties.bullet4 + "</li></ul></td></tr>" + "<table>";
             }
             else if (feature.properties.bullet3){
-                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 +  "</li><li>" + feature.properties.bullet3 + "</li></ul></td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.url + "' target='agfagadgda'>" + "click here!" + "</a></td></tr>" + "<table>";
+                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 +  "</li><li>" + feature.properties.bullet3 + "</li></ul></td></tr>" + "<table>";
             }
             else if (feature.properties.bullet2){
-                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 + "</li></ul></td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.url + "' target='agfagadgda'>" + "click here!" + "</a></td></tr>" + "<table>";
+                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li><li>" + feature.properties.bullet2 + "</li></ul></td></tr>" + "<table>";
             }
             else if (feature.properties.bullet1){
-                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li></ul></td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.url + "' target='agfagadgda'>" + "click here!" + "</a></td></tr>" + "<table>";
+                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Description</th><td><ul><li>" + feature.properties.bullet1 + "</li></ul></td></tr>" + "<table>";
             }
             else {
-                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.url + "' target='agfagadgda'>" + "click here!" + "</a></td></tr>" + "<table>";
+                var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>City</th><td>" + feature.properties.city + "</td></tr>" + "<tr><th>Date</th><td>" + feature.properties.timespan + "</td></tr>" + "<table>";
             }
-            var title = feature.properties.position + " - " + feature.properties.name;
+            var title = feature.properties.position + " - <a href='" + feature.properties.url + "''>" + feature.properties.name + "</a>"
             layer.on({
                 click: function(e) {
                     $("#feature-title").html(title);
@@ -384,14 +384,3 @@ $(document).one("ajaxStop", function() {
     $(".twitter-typeahead").css("position", "static");
     $(".twitter-typeahead").css("display", "block");
 });
-
-// Leaflet patch to make layer control scrollable on touch browsers
-/*var container = $(".leaflet-control-layers")[0];
-if (!L.Browser.touch) {
-    L.DomEvent
-        .disableClickPropagation(container)
-        .disableScrollPropagation(container);
-} else {
-    L.DomEvent.disableClickPropagation(container);
-    }
-*/
