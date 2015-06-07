@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1",
+        "name": "D:hive",
+        "position": "Live Resident",
+        "timespan": "September - December 2012",
+        "city": "Detroit, MI",
+        "url": "http://dhivedetroit.org/",
+        "type": "work",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "Co-created initiative to grow the number of talented individuals in Detroit, increasing the housing supply in greater downtown to match the rising demand",
+        "bullet2": "Managed Twitter account (2000+ clicks/month), 400 member Facebook group and email communication (multiple requests/day) with potential residents",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -83.04861277341843,
+          42.33358360441903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2",
+        "name": "United Way for S.E. Michigan",
+        "position": "AmeriCorps Member",
+        "timespan": "September 2011 - June 2012",
+        "city": "Detroit, MI",
+        "url": "",
+        "type": "work",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "Partnered with agencies to plan and lead corporate and student volunteer projects",
+        "bullet2": "Executed large days of service, amassing a total of over 6,300 volunteer hours from participants",
+        "bullet3": "Developed a training program for Team Leaders to conduct smaller projects",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "large",
+        "marker_symbol": "UnitedWay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04602980613707,
+          42.33115464372981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3",
+        "name": "University of Michigan Hillel",
+        "position": "Detroit Associate",
+        "timespan": "September 2011 - April 2012",
+        "city": "Ann Arbor/Detroit, MI",
+        "url": "",
+        "type": "work",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "Coordinated with and supporting two student leaders to design a new and innovative curriculum around University of Michigan Hillel student’s relationship to Detroit",
+        "bullet2": "Planned events, meetings, discussions and volunteer projects with a complex variety of partners",
+        "bullet3": "Lead a week-long alternative spring break trip, managing budget, scheduling and group morale",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.73017013072968,
+          42.272513895008906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "Summer in the City",
+        "position": "In-Residence Fellow",
+        "timespan": "June 2011 - September 2012",
+        "city": "Detroit, MI",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "Resident at the Summer in the City headquarters, assisted with general logistics, hosted groups of volunteers and acted as an ambassador to the city",
+        "bullet2": "Motivated and built self-esteem in children and volunteers in Project Play, which brought together Metro Detroit high school students and Southwest Detroit elementary school students",
+        "bullet3": "Explored the meaning of service through informal discussions with high school volunteers",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "name": "",
+        "position": "",
+        "timespan": "",
+        "city": "",
+        "url": "",
+        "type": "",
+        "label": "",
+        "image": "",
+        "about": "",
+        "bullet1": "",
+        "bullet2": "",
+        "bullet3": "",
+        "bullet4": "",
+        "bullet5": "",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.119140625,
+          38.75408327579141
+        ]
+      }
+    }
+  ]
+}
