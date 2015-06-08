@@ -23,6 +23,17 @@ $("#full-extent-btn").click(function() {
     return false;
 });
 
+
+
+$('#initModal').on('hidden.bs.modal', function () {
+    map.fitBounds(locations.getBounds());
+    //map.setMaxBounds(locations.getBounds());
+    return false;})
+
+
+
+
+
 $("#legend-btn").click(function() {
     $("#legendModal").modal("show");
     $(".navbar-collapse.in").collapse("hide");
@@ -188,7 +199,7 @@ $.getJSON("data/map1.geojson", function(data) {
 });
 
 map = L.map("map", {
-    zoom: 1,
+    zoom: 2,
     center: [39.828175, -98.5795],
     layers: [mapBoxDark, markerClusters, highlight],
     zoomControl: false,
@@ -287,7 +298,7 @@ $("#featureModal").on("hidden.bs.modal", function(e) {
 $(document).one("ajaxStop", function() {
     $("#loading").hide();
     /* Fit map to boroughs bounds */
-    map.fitBounds(locations.getBounds());
+    //map.fitBounds(locations.getBounds());
     featureList = new List("features", {
         valueNames: ["feature-name"]
     });
@@ -337,6 +348,7 @@ $(document).one("ajaxStop", function() {
     });
     locationsBH.initialize();
     geonamesBH.initialize();
+    //map.getMaxBounds(locations.getBounds());
 
     /* instantiate the typeahead UI */
     $("#searchbox").typeahead({
